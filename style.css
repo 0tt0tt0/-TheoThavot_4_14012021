@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #ffffff;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -1039,4 +1039,22 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+#bloc-8 a{
+    display: block;
+    padding: 20px;
+    min-width: 48px;
+    min-height: 48px;
+}
+blockquote>p{
+    color: #000000;
+    font-family: "helvetica";
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+figcaption{
+    margin-bottom: 30px;
 }
